@@ -1,3 +1,7 @@
 xcuserdata/
 .DS_Store
 *.pkg
+# Xcode build output. Patchyco builds this as a submodule
+# (macos-vst-engine/build-blackhole.sh), and xcodebuild drops its
+# intermediates here; without this they end up committed to the fork.
+build/
